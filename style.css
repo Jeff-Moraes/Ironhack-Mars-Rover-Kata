@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+div .mapDiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+span.grid {
+  width: 50px;
+  height: 50px;
+  border: 1px dotted #ddd;
+}
+
+span.obstacle {
+  background: blue;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+span.rover1 {
+  background: green;
+  border-radius: 50%;
+  position: relative;
+}
+
+span.rover2 {
+  background: pink;
+  border-radius: 50%;
+  position: relative;
+}
+
+#rv1W {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid #000;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  clear: both;
+}
+
+#rv1S {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #000;
+  clear: both;
+}
+
+#rv1N {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #000;
+  clear: both;
+}
+
+#rv1E {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid #000;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  clear: both;
+}
+
+#rv2W {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid #000;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  clear: both;
+}
+
+#rv2S {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 15px solid #000;
+  clear: both;
+}
+
+#rv2N {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #000;
+  clear: both;
+}
+
+#rv2E {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid #000;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  clear: both;
+}
